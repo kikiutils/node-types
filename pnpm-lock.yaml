@@ -1,0 +1,16 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+devDependencies:
+  '@kikiutils/tsconfigs':
+    specifier: ^1.0.0
+    version: 1.0.0
+
+packages:
+
+  /@kikiutils/tsconfigs@1.0.0:
+    resolution: {integrity: sha512-S0bAzfMWpolOI4iJuilvOzrQ4bBBppKNntaN6fj0BfjzRbt0m0BZQ2sl60ZAn15mT2lL7MekiEVHR/lSqFlyQw==}
+    dev: true

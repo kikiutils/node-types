@@ -1,0 +1,28 @@
+{
+  "name": "@kikiutils/types",
+  "version": "0.1.0",
+  "description": "Utils typescript types.",
+  "license": "MIT",
+  "author": {
+    "name": "kiki-kanri"
+  },
+  "homepage": "https://github.com/kiki-kanri/kikiutils-node-types#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiki-kanri/kikiutils-node-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kiki-kanri/kikiutils-node-types/issues"
+  },
+  "type": "module",
+  "files": [
+    "./types/**/*"
+  ],
+  "types": "./types/index.d.ts",
+  "devDependencies": {
+    "@kikiutils/tsconfigs": "^1.0.0"
+  },
+  "keywords": [
+    "types"
+  ]
+}
