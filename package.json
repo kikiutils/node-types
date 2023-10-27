@@ -16,6 +16,7 @@
   },
   "type": "module",
   "files": [
+    "./nuxt/**/*",
     "./types/**/*"
   ],
   "types": "./types/index.d.ts",
