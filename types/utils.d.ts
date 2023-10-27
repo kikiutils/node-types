@@ -1,5 +1,5 @@
 export declare global {
-	type Dict<T> = Record<number | string, T>;
+	type Dict<T> = Record<string, T>;
 	type Nullable<T> = T | null;
 	type NullableNumber = Nullable<number>;
 	type NullableString = Nullable<string>;
