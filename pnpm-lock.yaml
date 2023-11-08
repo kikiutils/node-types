@@ -6,26 +6,70 @@ settings:
 
 devDependencies:
   '@kikiutils/prettierrc':
-    specifier: ^1.0.4
-    version: 1.0.4
+    specifier: ^1.2.0
+    version: 1.2.0
   '@kikiutils/tsconfigs':
     specifier: ^1.0.0
     version: 1.0.0
 
 packages:
 
-  /@kikiutils/prettierrc@1.0.4:
-    resolution: {integrity: sha512-H25q/wBL5Kou3Cotrwuf6R7MyqgYNC0LEnqZvJ7y3a/hmc3SEDCJTu+J1vAtrYEQVRKVoCb/wIJEzUBEHh9WMQ==}
+  /@augment-vir/common@13.5.0:
+    resolution: {integrity: sha512-kOnAOShZTaOJ8glYyi2K3hfiYV5zQyjpfc4jmHm5lySAFNMpOjKA7pZxpl8n3RCIHAt+nFP64vuxtSI6jSWOZw==}
+    dependencies:
+      type-fest: 3.13.1
+    dev: true
+
+  /@augment-vir/common@21.5.1:
+    resolution: {integrity: sha512-P/asI+LPdYdbnbWijr8AfeXfRbNbuCVWTgx/QCfeuTD3xEuF0jpk0Qu4zFXaI0C7JQTr3Y7dmcRLV+hfYoKldA==}
+    dependencies:
+      browser-or-node: 2.1.1
+      type-fest: 4.6.0
+    dev: true
+
+  /@kikiutils/prettierrc@1.2.0:
+    resolution: {integrity: sha512-Rf0r1TTD/j2evFPjQpVrtLyYRXSxUO+A8KTsH9/nCw/1q/dIdFQWXqHgIKeJod02WEmUKxUMPOLRbnKgDkardQ==}
     dependencies:
       prettier: 3.0.3
+      prettier-plugin-multiline-arrays: 3.0.0(prettier@3.0.3)
     dev: true
 
   /@kikiutils/tsconfigs@1.0.0:
     resolution: {integrity: sha512-S0bAzfMWpolOI4iJuilvOzrQ4bBBppKNntaN6fj0BfjzRbt0m0BZQ2sl60ZAn15mT2lL7MekiEVHR/lSqFlyQw==}
     dev: true
 
+  /browser-or-node@2.1.1:
+    resolution: {integrity: sha512-8CVjaLJGuSKMVTxJ2DpBl5XnlNDiT4cQFeuCJJrvJmts9YrTZDizTX7PjC2s6W4x+MBGZeEY6dGMrF04/6Hgqg==}
+    dev: true
+
+  /prettier-plugin-multiline-arrays@3.0.0(prettier@3.0.3):
+    resolution: {integrity: sha512-qEfctOpCfnTztyLRoVkKvYpOLeTiG1Sq29Guk9zMs5YeZeoRZXO6JDdWj9OJyswJHmIrOEuPCmpdS7yxkyIatw==}
+    peerDependencies:
+      prettier: ^3.0.0
+    dependencies:
+      '@augment-vir/common': 21.5.1
+      prettier: 3.0.3
+      proxy-vir: 0.0.1
+    dev: true
+
   /prettier@3.0.3:
     resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
     engines: {node: '>=14'}
     hasBin: true
+    dev: true
+
+  /proxy-vir@0.0.1:
+    resolution: {integrity: sha512-K3sv2I9kigOqt17hMhvWjSiwx90hpxxD3rN+meVQhrGKoxhVbt82ulkm3i1KlenVIMS1KFskt/vltMlGHVQrMw==}
+    dependencies:
+      '@augment-vir/common': 13.5.0
+    dev: true
+
+  /type-fest@3.13.1:
+    resolution: {integrity: sha512-tLq3bSNx+xSpwvAJnzrK0Ep5CLNWjvFTOp71URMaAEWBfRb9nnJiBoUe0tF8bI4ZFO3omgBR6NvnbzVUT3Ly4g==}
+    engines: {node: '>=14.16'}
+    dev: true
+
+  /type-fest@4.6.0:
+    resolution: {integrity: sha512-rLjWJzQFOq4xw7MgJrCZ6T1jIOvvYElXT12r+y0CC6u67hegDHaxcPqb2fZHOGlqxugGQPNB1EnTezjBetkwkw==}
+    engines: {node: '>=16'}
     dev: true
