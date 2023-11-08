@@ -6,13 +6,9 @@
   "author": {
     "name": "kiki-kanri"
   },
-  "homepage": "https://github.com/kiki-kanri/kikiutils-node-types#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kiki-kanri/kikiutils-node-types.git"
-  },
-  "bugs": {
-    "url": "https://github.com/kiki-kanri/kikiutils-node-types/issues"
+    "url": "https://github.com/kiki-kanri/kikiutils-node-types"
   },
   "type": "module",
   "files": [
