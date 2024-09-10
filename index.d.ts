@@ -1,4 +1,4 @@
-export declare global {
+declare global {
 	/**
 	 * A dictionary type that maps string keys to values of type T.
 	 *
@@ -40,3 +40,5 @@ export declare global {
 	 */
 	type UndefinedableString = Undefinedable<string>;
 }
+
+export {};
