@@ -43,9 +43,9 @@ All types are global and can be used throughout the project after import. Check 
   - Nullable
   - NullableNumber
   - NullableString
-  - Undefinedable
-  - UndefinedableNumber
-  - UndefinedableString
+  - UndefinedAble
+  - UndefinedAbleNumber
+  - UndefinedAbleString
 
 - [vue](./vue.d.ts)
   - ComponentRef
