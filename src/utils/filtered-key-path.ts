@@ -1,7 +1,15 @@
 import type { ObjectId } from 'bson';
 
-type ConditionalPath<K extends number | string, V, U> = V extends U ? `${K}` : DefaultPath<K, V, never>;
-type DefaultPath<K extends number | string, V, RK = `${K}`> = V extends TerminalType ? RK : `${K}.${FilteredKeyPath<V>}`;
+/**
+ * The following types are based on or inspired by types from the Element Plus project.
+ * Source: https://github.com/element-plus/element-plus
+ * License: MIT (https://opensource.org/licenses/MIT)
+ *
+ * Original types might have been modified to suit this project’s needs.
+ */
+
+type ConditionalPath<K extends number | string, V, U> = V extends U ? `${K}` : DefaultPath<K, V, U, never>;
+type DefaultPath<K extends number | string, V, U = never, RK = `${K}`> = V extends TerminalType ? RK : `${K}.${FilteredKeyPath<V, U>}`;
 type IsTuple<T extends ReadonlyArray<any>> = number extends T['length'] ? false : true;
 type PathImpl<K extends string | number, V, U> = [U] extends [never] ? DefaultPath<K, V> : ConditionalPath<K, V, U>;
 type TerminalType = RegExp | Date | File | Blob | string | number | bigint | boolean | symbol | null | undefined | ObjectId;
