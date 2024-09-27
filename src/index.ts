@@ -25,6 +25,9 @@ declare global {
 	 */
 	type NullableString = Nullable<string>;
 
+	type ReadonlyDict<T> = Readonly<Dict<T>>;
+	type ReadonlyRecord<K extends keyof any, T> = Readonly<Record<K, T>>;
+
 	/**
 	 * A type that represents either a value of type T or undefined.
 	 *
