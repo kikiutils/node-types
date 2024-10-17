@@ -38,16 +38,21 @@ All types are global and can be used throughout the project after import. Check 
 
 # Types
 
-- [index](./index.d.ts) (main)
+- [index](./src/index.ts) (main)
   - Dict
+  - FilteredKeyPath - from [filtered-key-path](./src/utils/filtered-key-path.ts) utility
   - Nullable
   - NullableNumber
   - NullableString
+  - PartialDict
+  - PartialRecord
+  - ReadonlyDict
+  - ReadonlyRecord
   - UndefinedAble
   - UndefinedAbleNumber
   - UndefinedAbleString
 
-- [vue](./vue.d.ts)
+- [vue](./src//vue.ts)
   - ComponentRef
 
 ## License
