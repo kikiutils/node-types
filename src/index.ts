@@ -44,26 +44,4 @@ declare global {
 	 * A type that represents either a string or undefined.
 	 */
 	type UndefinedAbleString = UndefinedAble<string>;
-
-	/**
-	 * A type that represents either a value of type T or undefined.
-	 *
-	 * @template T - The type of the value.
-	 * @deprecated Use `UndefinedAble<T>` instead.
-	 */
-	type Undefinedable<T> = T | undefined;
-
-	/**
-	 * A type that represents either a number or undefined.
-	 *
-	 * @deprecated Use `UndefinedAbleNumber` instead.
-	 */
-	type UndefinedableNumber = UndefinedAble<number>;
-
-	/**
-	 * A type that represents either a string or undefined.
-	 *
-	 * @deprecated Use `UndefinedAbleString` instead.
-	 */
-	type UndefinedableString = UndefinedAble<string>;
 }
