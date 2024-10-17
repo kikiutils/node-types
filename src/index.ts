@@ -1,4 +1,4 @@
-export type * from './utils/filtered-key-path';
+export type {} from './utils/filtered-key-path';
 
 declare global {
 	/**
@@ -25,6 +25,8 @@ declare global {
 	 */
 	type NullableString = Nullable<string>;
 
+	type PartialDict<T> = Partial<Dict<T>>;
+	type PartialRecord<K extends keyof any, T> = Partial<Record<K, T>>;
 	type ReadonlyDict<T> = Readonly<Dict<T>>;
 	type ReadonlyRecord<K extends keyof any, T> = Readonly<Record<K, T>>;
 
