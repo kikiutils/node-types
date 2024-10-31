@@ -27,6 +27,7 @@ declare global {
 
 	type PartialDict<T> = Partial<Dict<T>>;
 	type PartialRecord<K extends keyof any, T> = Partial<Record<K, T>>;
+	type Promiseable<T> = T | Promise<T>;
 	type ReadonlyDict<T> = Readonly<Dict<T>>;
 	type ReadonlyRecord<K extends keyof any, T> = Readonly<Record<K, T>>;
 
