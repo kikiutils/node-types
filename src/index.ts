@@ -24,7 +24,6 @@ declare global {
 	 * A type that represents either a string or null.
 	 */
 	type NullableString = Nullable<string>;
-
 	type PartialDict<T> = Partial<Dict<T>>;
 	type PartialRecord<K extends keyof any, T> = Partial<Record<K, T>>;
 	type Promiseable<T> = T | Promise<T>;
@@ -36,15 +35,38 @@ declare global {
 	 *
 	 * @template T - The type of the value.
 	 */
+	type Undefinedable<T> = T | undefined;
+
+	/**
+	 * A type that represents either a number or undefined.
+	 */
+	type UndefinedableNumber = Undefinedable<number>;
+
+	/**
+	 * A type that represents either a string or undefined.
+	 */
+	type UndefinedableString = Undefinedable<string>;
+
+	/**
+	 * A type that represents either a value of type T or undefined.
+	 *
+	 * @deprecated Use @see {@link Undefinedable} instead.
+	 *
+	 * @template T - The type of the value.
+	 */
 	type UndefinedAble<T> = T | undefined;
 
 	/**
 	 * A type that represents either a number or undefined.
+	 *
+	 * @deprecated Use @see {@link UndefinedableNumber} instead.
 	 */
 	type UndefinedAbleNumber = UndefinedAble<number>;
 
 	/**
 	 * A type that represents either a string or undefined.
+	 *
+	 * @deprecated Use @see {@link UndefinedableString} instead.
 	 */
 	type UndefinedAbleString = UndefinedAble<string>;
 }
