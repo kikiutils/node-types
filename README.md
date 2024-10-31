@@ -46,11 +46,12 @@ All types are global and can be used throughout the project after import. Check 
   - NullableString
   - PartialDict
   - PartialRecord
+  - Promiseable
   - ReadonlyDict
   - ReadonlyRecord
-  - UndefinedAble
-  - UndefinedAbleNumber
-  - UndefinedAbleString
+  - Undefinedable
+  - UndefinedableNumber
+  - UndefinedableString
 
 - [vue](./src//vue.ts)
   - ComponentRef
