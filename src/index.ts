@@ -1,4 +1,8 @@
+import type { Promisable } from 'type-fest';
+
 export type {} from './utils/filtered-key-path';
+
+export type DoNotRemoveOrUseThisType = Promisable<any>;
 
 declare global {
 	/**
@@ -28,7 +32,9 @@ declare global {
 	type PartialRecord<K extends keyof any, T> = Partial<Record<K, T>>;
 
 	/**
-	 * @deprecated Using `Promisable` provided by type-fest.
+	 * @deprecated Use {@link Promisable} from `type-fest` instead.
+	 *
+	 * Alternatively, import the `type-fest` file from this package and directly use the {@link Promisable} type.
 	 */
 	type Promiseable<T> = T | Promise<T>;
 	type Readonlyable<T> = T | Readonly<T>;
@@ -55,7 +61,7 @@ declare global {
 	/**
 	 * A type that represents either a value of type T or undefined.
 	 *
-	 * @deprecated Use @see {@link Undefinedable} instead.
+	 * @deprecated Use {@link Undefinedable} instead.
 	 *
 	 * @template T - The type of the value.
 	 */
@@ -64,14 +70,14 @@ declare global {
 	/**
 	 * A type that represents either a number or undefined.
 	 *
-	 * @deprecated Use @see {@link UndefinedableNumber} instead.
+	 * @deprecated Use {@link UndefinedableNumber} instead.
 	 */
 	type UndefinedAbleNumber = UndefinedAble<number>;
 
 	/**
 	 * A type that represents either a string or undefined.
 	 *
-	 * @deprecated Use @see {@link UndefinedableString} instead.
+	 * @deprecated Use {@link UndefinedableString} instead.
 	 */
 	type UndefinedAbleString = UndefinedAble<string>;
 }
