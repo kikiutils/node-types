@@ -31,6 +31,7 @@ declare global {
 	 * @deprecated Using `Promisable` provided by type-fest.
 	 */
 	type Promiseable<T> = T | Promise<T>;
+	type Readonlyable<T> = T | Readonly<T>;
 	type ReadonlyDict<T> = Readonly<Dict<T>>;
 	type ReadonlyRecord<K extends keyof any, T> = Readonly<Record<K, T>>;
 
