@@ -11,6 +11,9 @@ importers:
       bson:
         specifier: ^6.8.0
         version: 6.8.0
+      type-fest:
+        specifier: ^4.26.1
+        version: 4.26.1
     devDependencies:
       '@kikiutils/changelogen':
         specifier: ^0.7.0

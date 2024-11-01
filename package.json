@@ -13,7 +13,8 @@
     "release": "pnpm run build && changelogen --no-output --push --release && sh ./build-and-publish.sh"
   },
   "dependencies": {
-    "bson": "^6.8.0"
+    "bson": "^6.8.0",
+    "type-fest": "^4.26.1"
   },
   "devDependencies": {
     "@kikiutils/changelogen": "^0.7.0",
