@@ -8,6 +8,7 @@ import type { ObjectId } from 'bson';
  * Original types might have been modified to suit this project’s needs.
  */
 
+/***/
 type ConditionalPath<K extends number | string, V, U> = V extends U ? `${K}` : DefaultPath<K, V, U, never>;
 type DefaultPath<K extends number | string, V, U = never, RK = `${K}`> = V extends TerminalType ? RK : `${K}.${FilteredKeyPath<V, U>}`;
 type IsTuple<T extends ReadonlyArray<any>> = number extends T['length'] ? false : true;
