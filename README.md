@@ -29,7 +29,11 @@ Import types in any `.ts` or `.d.ts` file under the project:
 
 ```typescript
 import type {} from '@kikiutils/types';
+import type {} from '@kikiutils/types/type-fest';
+import type {} from '@kikiutils/types/vue';
 ```
+
+You can omit the import if the related types are not used.
 
 > [!IMPORTANT]
 > Ensure the tsconfig.json settings include the file within the compiler's resolution scope.
@@ -46,14 +50,19 @@ All types are global and can be used throughout the project after import. Check 
   - NullableString
   - PartialDict
   - PartialRecord
-  - Promiseable
+  - Readonlyable
   - ReadonlyDict
   - ReadonlyRecord
   - Undefinedable
   - UndefinedableNumber
   - UndefinedableString
 
-- [vue](./src//vue.ts)
+- [type-fest](./src/type-fest.ts)
+  - Arrayable
+  - Except
+  - Promisable
+
+- [vue](./src/vue.ts)
   - ComponentRef
 
 ## License
