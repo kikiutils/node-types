@@ -36,8 +36,8 @@ declare global {
 	 *
 	 * Alternatively, import the `type-fest` file from this package and directly use the {@link Promisable} type.
 	 */
-	type Promiseable<T> = T | Promise<T>;
-	type Readonlyable<T> = T | Readonly<T>;
+	type Promiseable<T> = Promise<T> | T;
+	type Readonlyable<T> = Readonly<T> | T;
 	type ReadonlyDict<T> = Readonly<Dict<T>>;
 	type ReadonlyRecord<K extends keyof any, T> = Readonly<Record<K, T>>;
 

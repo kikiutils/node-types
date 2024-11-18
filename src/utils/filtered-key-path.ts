@@ -12,8 +12,8 @@ import type { ObjectId } from 'bson';
 type ConditionalPath<K extends number | string, V, U> = V extends U ? `${K}` : DefaultPath<K, V, U, never>;
 type DefaultPath<K extends number | string, V, U = never, RK = `${K}`> = V extends TerminalType ? RK : `${K}.${FilteredKeyPath<V, U>}`;
 type IsTuple<T extends ReadonlyArray<any>> = number extends T['length'] ? false : true;
-type PathImpl<K extends string | number, V, U> = [U] extends [never] ? DefaultPath<K, V> : ConditionalPath<K, V, U>;
-type TerminalType = RegExp | Date | File | Blob | string | number | bigint | boolean | symbol | null | undefined | ObjectId;
+type PathImpl<K extends number | string, V, U> = [U] extends [never] ? DefaultPath<K, V> : ConditionalPath<K, V, U>;
+type TerminalType = Blob | Date | File | ObjectId | RegExp | bigint | boolean | null | number | string | symbol | undefined;
 type TupleKey<T extends ReadonlyArray<any>> = Exclude<keyof T, keyof any[]>;
 
 declare global {
