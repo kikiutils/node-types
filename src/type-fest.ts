@@ -1,15 +1,15 @@
 import type TypeFest from 'type-fest';
 
-type ExceptOptions = {
+interface ExceptOptions {
 	/**
-	Disallow assigning non-specified properties.
-
-	Note that any omitted properties in the resulting type will be present in autocomplete as `undefined`.
-
-	@default false
-	*/
+	 * Disallow assigning non-specified properties.
+	 *
+	 * Note that any omitted properties in the resulting type will be present in autocomplete as `undefined`.
+	 *
+	 * @default false
+	 */
 	requireExactProps?: boolean;
-};
+}
 
 declare global {
 	/**

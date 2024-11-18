@@ -2,12 +2,15 @@
   "name": "@kikiutils/types",
   "version": "3.2.0",
   "description": "A versatile library of utility types for TypeScript.",
-  "license": "MIT",
   "author": "kiki-kanri",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kiki-kanri/kikiutils-node-types.git"
   },
+  "keywords": [
+    "types"
+  ],
   "scripts": {
     "build": "rimraf ./dist && tsc",
     "release": "pnpm run build && changelogen --no-output --push --release && sh ./build-and-publish.sh"
@@ -23,8 +26,5 @@
     "rimraf": "^6.0.1",
     "typescript": "^5.6.3",
     "vue": "^3.5.13"
-  },
-  "keywords": [
-    "types"
-  ]
+  }
 }
