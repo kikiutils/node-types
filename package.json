@@ -18,15 +18,15 @@
     "release": "pnpm run lint && pnpm run build && changelogen --no-output --push --release && sh ./build-and-publish.sh"
   },
   "dependencies": {
-    "bson": "^6.10.1",
-    "type-fest": "^4.30.1"
+    "bson": "^6.10.3",
+    "type-fest": "^4.37.0"
   },
   "devDependencies": {
-    "@kikiutils/changelogen": "^0.7.0",
-    "@kikiutils/eslint-config": "^0.7.1",
-    "@kikiutils/tsconfigs": "^3.0.2",
+    "@kikiutils/changelogen": "^0.8.0",
+    "@kikiutils/eslint-config": "^0.8.3",
+    "@kikiutils/tsconfigs": "^3.0.3",
     "rimraf": "^6.0.1",
-    "typescript": "^5.7.2",
+    "typescript": "^5.8.2",
     "vue": "^3.5.13"
   }
 }
