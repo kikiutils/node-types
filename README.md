@@ -76,5 +76,5 @@ All types are global and can be used throughout the project after import. Check 
 [npm-downloads-href]: https://npmjs.com/package/@kikiutils/types
 [npm-downloads-src]: https://img.shields.io/npm/dm/@kikiutils/types.svg?style=flat&colorA=18181B&colorB=28CF8D
 
-[license-href]: https://github.com/kiki-kanri/kikiutils-node-types/blob/main/LICENSE
+[license-href]: https://github.com/kikiutils/node-types/blob/main/LICENSE
 [license-src]: https://img.shields.io/npm/l/@kikiutils/types.svg?style=flat&colorA=18181B&colorB=28CF8D
