@@ -20,7 +20,15 @@ declare global {
     /**
      * @see {@link TypeFest.Except}
      */
-    type Except<ObjectType, KeysType extends keyof ObjectType, Options extends ExceptOptions = { requireExactProps: false }> = TypeFest.Except<ObjectType, KeysType, Options>;
+    type Except<
+        ObjectType,
+        KeysType extends keyof ObjectType,
+        Options extends ExceptOptions = { requireExactProps: false },
+    > = TypeFest.Except<
+        ObjectType,
+        KeysType,
+        Options
+    >;
 
     /**
      * @see {@link TypeFest.Promisable}
