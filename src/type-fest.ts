@@ -1,4 +1,9 @@
-import type TypeFest from 'type-fest';
+import type {
+    Arrayable as TArrayable,
+    Except as TExcept,
+    Promisable as TPromisable,
+} from 'type-fest';
+import type { ApplyDefaultOptions } from 'type-fest/source/internal';
 
 interface ExceptOptions {
     /**
@@ -13,25 +18,25 @@ interface ExceptOptions {
 
 declare global {
     /**
-     * @see {@link TypeFest.Arrayable}
+     * @see {@link TArrayable}
      */
-    type Arrayable<T> = TypeFest.Arrayable<T>;
+    type Arrayable<T> = TArrayable<T>;
 
     /**
-     * @see {@link TypeFest.Except}
+     * @see {@link TExcept}
      */
     type Except<
         ObjectType,
         KeysType extends keyof ObjectType,
-        Options extends ExceptOptions = { requireExactProps: false },
-    > = TypeFest.Except<
+        Options extends ExceptOptions = object,
+    > = TExcept<
         ObjectType,
         KeysType,
-        Options
+        ApplyDefaultOptions<ExceptOptions, { requireExactProps: false }, Options>
     >;
 
     /**
-     * @see {@link TypeFest.Promisable}
+     * @see {@link TPromisable}
      */
-    type Promisable<T> = TypeFest.Promisable<T>;
+    type Promisable<T> = TPromisable<T>;
 }
