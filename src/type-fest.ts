@@ -2,6 +2,8 @@ import type {
     Arrayable as TArrayable,
     Except as TExcept,
     Promisable as TPromisable,
+    SetOptional as TSetOptional,
+    SetRequired as TSetRequired,
 } from 'type-fest';
 import type { ApplyDefaultOptions } from 'type-fest/source/internal';
 
@@ -39,4 +41,14 @@ declare global {
      * @see {@link TPromisable}
      */
     type Promisable<T> = TPromisable<T>;
+
+    /**
+     * @see {@link TSetOptional}
+     */
+    type SetOptional<BaseType, Keys extends keyof BaseType> = TSetOptional<BaseType, Keys>;
+
+    /**
+     * @see {@link TSetRequired}
+     */
+    type SetRequired<BaseType, Keys extends keyof BaseType> = TSetRequired<BaseType, Keys>;
 }
