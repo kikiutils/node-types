@@ -24,9 +24,10 @@
   ],
   "scripts": {
     "build": "rimraf ./dist && tsc",
+    "bumplog": "changelogen --bump --hideAuthorEmail",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "release": "pnpm run lint && pnpm run build && changelogen --no-output --push --release && npm publish"
+    "release": "pnpm run lint && pnpm run build && changelogen --hideAuthorEmail --push --release && npm publish"
   },
   "dependencies": {
     "bson": "^6.10.3",
