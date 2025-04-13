@@ -2,6 +2,7 @@ import type {
     Arrayable as TArrayable,
     Except as TExcept,
     Promisable as TPromisable,
+    ReadonlyDeep as TReadonlyDeep,
     SetOptional as TSetOptional,
     SetRequired as TSetRequired,
 } from 'type-fest';
@@ -41,6 +42,11 @@ declare global {
      * @see {@link TPromisable}
      */
     type Promisable<T> = TPromisable<T>;
+
+    /**
+     * @see {@link TReadonlyDeep}
+     */
+    type ReadonlyDeep<T> = TReadonlyDeep<T>;
 
     /**
      * @see {@link TSetOptional}
