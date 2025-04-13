@@ -1,3 +1,4 @@
+export type {} from './type-fest';
 export type {} from './utils/filtered-key-path';
 
 declare global {
