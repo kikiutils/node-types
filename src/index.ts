@@ -10,5 +10,6 @@ declare global {
     type PartialRecord<K extends keyof any, T> = Partial<Record<K, T>>;
     type Readonlyable<T> = Readonly<T> | T;
     type ReadonlyDict<T> = Readonly<Dict<T>>;
+    type ReadonlyPartialRecord<K extends keyof any, T> = Readonly<PartialRecord<K, T>>;
     type ReadonlyRecord<K extends keyof any, T> = Readonly<Record<K, T>>;
 }
