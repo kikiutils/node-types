@@ -1,6 +1,6 @@
 {
   "name": "@kikiutils/types",
-  "version": "4.1.0",
+  "version": "5.0.0",
   "description": "A lightweight utility types package that globally provides commonly used, simplified, and Vue-specific types — with zero import hassle.",
   "author": "kiki-kanri",
   "license": "MIT",

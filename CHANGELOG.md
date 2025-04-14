@@ -1,5 +1,43 @@
 # Changelog
 
+## v5.0.0
+
+[compare changes](https://github.com/kikiutils/node-types/compare/v4.1.0...v5.0.0)
+
+### 🚀 Enhancements
+
+- Import type-fest types in entry point ([3a75ba3](https://github.com/kikiutils/node-types/commit/3a75ba3))
+- Add `ReadonlyPartialRecord` type ([a54e5a3](https://github.com/kikiutils/node-types/commit/a54e5a3))
+- Add `ReadonlyDeep` type-fest type ([508eb92](https://github.com/kikiutils/node-types/commit/508eb92))
+
+### 💅 Refactors
+
+- ⚠️ Remove `Undefinedable` related types and normal type comments ([9b4a79c](https://github.com/kikiutils/node-types/commit/9b4a79c))
+
+### 📖 Documentation
+
+- Add CHANGELOG ([e2a7879](https://github.com/kikiutils/node-types/commit/e2a7879))
+- Add `ComponentRef` type example ([1ac2480](https://github.com/kikiutils/node-types/commit/1ac2480))
+- Update README, package.json description, and keywords ([06d0c9f](https://github.com/kikiutils/node-types/commit/06d0c9f))
+
+### 📦 Build
+
+- ⚠️ Update packaging method and structure ([2997cbd](https://github.com/kikiutils/node-types/commit/2997cbd))
+- Update build-related configurations ([74bf88c](https://github.com/kikiutils/node-types/commit/74bf88c))
+
+### 🏡 Chore
+
+- Upgrade dependencies ([ad03179](https://github.com/kikiutils/node-types/commit/ad03179))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️ Remove `Undefinedable` related types and normal type comments ([9b4a79c](https://github.com/kikiutils/node-types/commit/9b4a79c))
+- ⚠️ Update packaging method and structure ([2997cbd](https://github.com/kikiutils/node-types/commit/2997cbd))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v4.1.0
 
 [compare changes](https://github.com/kikiutils/node-types/compare/v4.0.0...v4.1.0)
