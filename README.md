@@ -4,66 +4,77 @@
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 
-A versatile library of utility types for TypeScript.
+A lightweight utility types package that globally provides commonly used, simplified, and Vue-specific types — with zero import hassle.
+
+- [✨ Release Notes](./CHANGELOG.md)
 
 ## Features
 
-- 📚 Comprehensive utility types for handling optional and nullable values
-- 🧩 Seamless management of Vue component references
+- 🛠 Provides commonly used or simplified utility types
+- 🌍 Declares types globally via `declare global`, no imports needed
+- 📦 Mounts select `type-fest` types to the global scope
+- 🧩 Includes Vue component instance-related types
 
 ## Installation
 
-Add dependency (example using pnpm).
+Using [pnpm](https://pnpm.io):
 
 ```bash
 pnpm add -D @kikiutils/types
 ```
 
-You can also use yarn, npm, or bun to add the dependency.
-
-That's it! You're ready to use this package in your project. Check out the instructions for [usage](#usage) below ✨.
+You can also use `yarn`, `npm`, or `bun`.
 
 ## Usage
 
-Import types in any `.ts` or `.d.ts` file under the project:
+Load the types in any `.ts` or `.d.ts` file — only once is needed:
 
 ```typescript
 import type {} from '@kikiutils/types';
-import type {} from '@kikiutils/types/type-fest';
 import type {} from '@kikiutils/types/vue';
+// Or
+export type {} from '@kikiutils/types';
+export type {} from '@kikiutils/types/vue';
 ```
 
-You can omit the import if the related types are not used.
+You can load only the types you need.
 
 > [!IMPORTANT]
-> Ensure the tsconfig.json settings include the file within the compiler's resolution scope.
-
-All types are global and can be used throughout the project after import. Check out the instructions for [types](#types) below.
+> Make sure this file is located within a path included in the `include` field of your `tsconfig.json`.
 
 ## Types
 
-- [index](./src/index.ts) (main)
-  - Dict
-  - FilteredKeyPath - from [filtered-key-path](./src/utils/filtered-key-path.ts) utility
-  - Nullable
-  - NullableNumber
-  - NullableString
-  - PartialDict
-  - PartialRecord
-  - Readonlyable
-  - ReadonlyDict
-  - ReadonlyRecord
-  - Undefinedable
-  - UndefinedableNumber
-  - UndefinedableString
+### [index](./src/index.ts)
 
-- [type-fest](./src/type-fest.ts)
-  - Arrayable
-  - Except
-  - Promisable
+The index file includes both utility types and `type-fest` types.
 
-- [vue](./src/vue.ts)
-  - ComponentRef
+- `Dict`
+- `Nullable`
+- `NullableNumber`
+- `NullableString`
+- `PartialDict`
+- `PartialRecord`
+- `Readonlyable`
+- `ReadonlyDict`
+- `ReadonlyPartialRecord`
+- `ReadonlyRecord`
+
+### [type-fest](./src/type-fest.ts)
+
+- `Arrayable`
+- `Except`
+- `Promisable`
+- `ReadonlyDeep`
+- `SetOptional`
+- `SetRequired`
+
+### [utils](./src/utils)
+
+- `FilteredKeyPath`
+
+### [vue](./src/vue.ts)
+
+- `ComponentRef`
 
 ## License
 
