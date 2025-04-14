@@ -6,6 +6,11 @@ declare global {
      * The reference can be either an instance of the specified component or null.
      *
      * @template K - The key of the component in the GlobalComponents.
+     *
+     * @example
+     * ```typescript
+     * const keepAliveRef = ref<ComponentRef<'KeepAlive'>>(null);
+     * ```
      */
     type ComponentRef<K extends keyof GlobalComponents> = InstanceType<GlobalComponents[K]> | null;
 }
