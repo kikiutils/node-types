@@ -1,5 +1,22 @@
 # Changelog
 
+## v5.0.1
+
+[compare changes](https://github.com/kikiutils/node-types/compare/v5.0.0...v5.0.1)
+
+### 📖 Documentation
+
+- Update package description and keywords ([25d8eea](https://github.com/kikiutils/node-types/commit/25d8eea))
+
+### 🏡 Chore
+
+- Add `prepack` script to package.json ([30b1bce](https://github.com/kikiutils/node-types/commit/30b1bce))
+- Update dependencies ([0f3e05d](https://github.com/kikiutils/node-types/commit/0f3e05d))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v5.0.0
 
 [compare changes](https://github.com/kikiutils/node-types/compare/v4.1.0...v5.0.0)
