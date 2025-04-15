@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "bson": "^6.10.3",
-    "type-fest": "^4.39.1"
+    "type-fest": "^4.40.0"
   },
   "devDependencies": {
     "@kikiutils/changelogen": "^0.8.0",
