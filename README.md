@@ -4,7 +4,7 @@
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 
-A lightweight utility types package that globally provides commonly used, simplified, and Vue-specific types — with zero import hassle.
+Lightweight utility types package with global declarations, Vue support, and no import required.
 
 - [✨ Release Notes](./CHANGELOG.md)
 

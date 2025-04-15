@@ -1,7 +1,7 @@
 {
   "name": "@kikiutils/types",
   "version": "5.0.0",
-  "description": "A lightweight utility types package that globally provides commonly used, simplified, and Vue-specific types — with zero import hassle.",
+  "description": "Lightweight utility types package with global declarations, Vue support, and no import required.",
   "author": "kiki-kanri",
   "license": "MIT",
   "repository": {
@@ -9,13 +9,15 @@
     "url": "git+https://github.com/kikiutils/node-types.git"
   },
   "keywords": [
+    "component-types",
+    "declaration",
     "declare-global",
     "global-types",
+    "no-import",
     "ts",
     "type-fest",
     "types",
     "typescript",
-    "typings",
     "utility-types",
     "vue",
     "vue-types"
