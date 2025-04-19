@@ -2,6 +2,7 @@
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
+<!-- [![codecov][codecov-src]][codecov-href] -->
 [![License][license-src]][license-href]
 
 Lightweight utility types package with global declarations, Vue support, and no import required.
@@ -86,6 +87,9 @@ The index file includes both utility types and `type-fest` types.
 
 [npm-downloads-href]: https://npmjs.com/package/@kikiutils/types
 [npm-downloads-src]: https://img.shields.io/npm/dm/@kikiutils/types.svg?style=flat&colorA=18181B&colorB=28CF8D
+
+<!-- [codecov-href]: https://codecov.io/gh/kikiutils/node-types
+[codecov-src]: https://codecov.io/gh/kikiutils/node-types/graph/badge.svg?token=RNU7FNG8HD -->
 
 [license-href]: https://github.com/kikiutils/node-types/blob/main/LICENSE
 [license-src]: https://img.shields.io/npm/l/@kikiutils/types.svg?style=flat&colorA=18181B&colorB=28CF8D
