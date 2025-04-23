@@ -1,5 +1,40 @@
 # Changelog
 
+## v5.1.0
+
+[compare changes](https://github.com/kikiutils/node-types/compare/v5.0.1...v5.1.0)
+
+### 🚀 Enhancements
+
+- Add more vue types ([ea78626](https://github.com/kikiutils/node-types/commit/ea78626))
+
+### 🏡 Chore
+
+- Enable `isolatedDeclarations` in tsconfig ([9e5db48](https://github.com/kikiutils/node-types/commit/9e5db48))
+- Remove `pnpm-workspace.yaml` and configure `pnpm.onlyBuiltDependencies` in package.json ([634666d](https://github.com/kikiutils/node-types/commit/634666d))
+- Format script ([16ca049](https://github.com/kikiutils/node-types/commit/16ca049))
+- Update file permissions after installing or updating dependencies ([d141f76](https://github.com/kikiutils/node-types/commit/d141f76))
+- Add `--hideAuthorEmail` flag to bumplog command ([382091b](https://github.com/kikiutils/node-types/commit/382091b))
+- Add typecheck command to package.json scripts ([2a1f7e0](https://github.com/kikiutils/node-types/commit/2a1f7e0))
+- Update dependencies ([24a1ac4](https://github.com/kikiutils/node-types/commit/24a1ac4))
+- Rename `jest.config.js` to `jest.config.mjs` ([76371a1](https://github.com/kikiutils/node-types/commit/76371a1))
+- Reorder lint, test, and build steps in release command ([b63dcb4](https://github.com/kikiutils/node-types/commit/b63dcb4))
+- Add and update configurations for future test setups ([bdc965f](https://github.com/kikiutils/node-types/commit/bdc965f))
+- Disable `isolatedDeclarations` in tsconfig ([ed1636f](https://github.com/kikiutils/node-types/commit/ed1636f))
+- Upgrade dependencies ([8332cde](https://github.com/kikiutils/node-types/commit/8332cde))
+
+### ✅ Tests
+
+- Add pass test unit ([d7b98bd](https://github.com/kikiutils/node-types/commit/d7b98bd))
+
+### 🤖 CI
+
+- Add test github workflow config file ([dd421d1](https://github.com/kikiutils/node-types/commit/dd421d1))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v5.0.1
 
 [compare changes](https://github.com/kikiutils/node-types/compare/v5.0.0...v5.0.1)
