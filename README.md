@@ -76,6 +76,9 @@ The index file includes both utility types and `type-fest` types.
 ### [vue](./src/vue.ts)
 
 - `ComponentRef`
+- `ShallowUnwrapRef`
+- `UnwrapNestedRefs`
+- `UnwrapRef`
 
 ## License
 

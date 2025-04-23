@@ -1,4 +1,9 @@
-import type { GlobalComponents } from 'vue';
+import type {
+    GlobalComponents,
+    ShallowUnwrapRef as VShallowUnwrapRef,
+    UnwrapNestedRefs as VUnwrapNestedRefs,
+    UnwrapRef as VUnwrapRef,
+} from 'vue';
 
 declare global {
     /**
@@ -13,4 +18,7 @@ declare global {
      * ```
      */
     type ComponentRef<K extends keyof GlobalComponents> = InstanceType<GlobalComponents[K]> | null;
+    type ShallowUnwrapRef<T> = VShallowUnwrapRef<T>;
+    type UnwrapNestedRefs<T> = VUnwrapNestedRefs<T>;
+    type UnwrapRef<T> = VUnwrapRef<T>;
 }
