@@ -1,5 +1,22 @@
 # Changelog
 
+## v5.2.0
+
+[compare changes](https://github.com/kikiutils/node-types/compare/v5.1.0...v5.2.0)
+
+### 🚀 Enhancements
+
+- Add more vue types ([f9d7a0f](https://github.com/kikiutils/node-types/commit/f9d7a0f))
+
+### 🏡 Chore
+
+- Update `modify-files-permissions.sh` ([89f72e3](https://github.com/kikiutils/node-types/commit/89f72e3))
+- Upgrade dependencies ([ad63ec4](https://github.com/kikiutils/node-types/commit/ad63ec4))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v5.1.0
 
 [compare changes](https://github.com/kikiutils/node-types/compare/v5.0.1...v5.1.0)
