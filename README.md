@@ -75,7 +75,9 @@ The index file includes both utility types and `type-fest` types.
 
 ### [vue](./src/vue.ts)
 
+- `Booleanish`
 - `ComponentRef`
+- `Numberish`
 - `ShallowUnwrapRef`
 - `UnwrapNestedRefs`
 - `UnwrapRef`
