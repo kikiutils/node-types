@@ -1,5 +1,37 @@
 # Changelog
 
+## v5.3.0
+
+[compare changes](https://github.com/kikiutils/node-types/compare/v5.2.0...v5.3.0)
+
+### 🚀 Enhancements
+
+- Add `AnyRecord` type ([92cc269](https://github.com/kikiutils/node-types/commit/92cc269))
+
+### 📖 Documentation
+
+- Update README badges urls ([499bc71](https://github.com/kikiutils/node-types/commit/499bc71))
+- Replace `%2F` with `/` in badge URLs in README ([4aaf916](https://github.com/kikiutils/node-types/commit/4aaf916))
+
+### 🏡 Chore
+
+- Add option to `upgrade-dependencies.sh` to clean `node_modules` and `pnpm-lock.yaml` before upgrading ([e542b14](https://github.com/kikiutils/node-types/commit/e542b14))
+- Upgrade dependencies ([d3ee5a7](https://github.com/kikiutils/node-types/commit/d3ee5a7))
+- Ensure all scripts change to their own directory before execution ([9be5fbf](https://github.com/kikiutils/node-types/commit/9be5fbf))
+- Update ignore files ([c81c294](https://github.com/kikiutils/node-types/commit/c81c294))
+- **scripts:** Ensure all scripts `cd` to their current directory correctly ([5362c3b](https://github.com/kikiutils/node-types/commit/5362c3b))
+- Upgrade dependencies ([b900df4](https://github.com/kikiutils/node-types/commit/b900df4))
+- Remove all test-related files, dependencies, and `codecov` integration ([92536ad](https://github.com/kikiutils/node-types/commit/92536ad))
+
+### 🤖 CI
+
+- Update test workflow ([1519e46](https://github.com/kikiutils/node-types/commit/1519e46))
+- Update condition for uploading to Codecov in workflow job ([39851ac](https://github.com/kikiutils/node-types/commit/39851ac))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v5.2.0
 
 [compare changes](https://github.com/kikiutils/node-types/compare/v5.1.0...v5.2.0)
