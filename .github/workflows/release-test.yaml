@@ -1,4 +1,4 @@
-name: Test and Upload Coverage on Release
+name: Test
 
 on:
   push:
@@ -38,12 +38,5 @@ jobs:
       - name: Install dependencies
         run: pnpm i --frozen-lockfile
 
-      - name: Run tests with coverage
+      - name: Run tests
         run: pnpm run test
-
-      - name: Upload coverage to Codecov
-        if: ${{ matrix.os == 'ubuntu-latest' && matrix.node-version == '24.0.0' }}
-        uses: codecov/codecov-action@v5
-        with:
-          fail_ci_if_error: true
-          token: ${{ secrets.CODECOV_TOKEN }}
