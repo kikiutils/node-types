@@ -39,12 +39,14 @@
   "scripts": {
     "build": "rimraf ./dist && tsc -p ./tsconfig.build.json",
     "bumplog": "changelogen --bump --hideAuthorEmail",
+    "depcheck": "depcheck",
     "lint": "eslint --max-warnings 0",
     "lint:fix": "eslint --fix --max-warnings 0",
     "prepack": "pnpm run build",
     "release": "pnpm run lint && pnpm run typecheck && pnpm run test && pnpm run build && changelogen --hideAuthorEmail --push --release && npm publish",
     "test": " ",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "unused-exports": "ts-unused-exports ./tsconfig.json"
   },
   "dependencies": {
     "bson": "^6.10.4",
@@ -54,7 +56,9 @@
     "@kikiutils/changelogen": "^0.8.1",
     "@kikiutils/eslint-config": "^1.2.7",
     "@kikiutils/tsconfigs": "^5.0.4",
+    "depcheck": "^1.4.7",
     "rimraf": "^6.0.1",
+    "ts-unused-exports": "^11.0.1",
     "typescript": "^5.8.3",
     "vue": "^3.5.17"
   },
