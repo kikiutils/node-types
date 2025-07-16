@@ -1,8 +1,15 @@
+import type {
+    Buffer,
+    Blob as NodeBlob,
+    File as NodeFile,
+} from 'node:buffer';
+
 export type {} from './type-fest';
 export type {} from './utils/filtered-key-path';
 
 declare global {
     type AnyRecord = Record<string, any>;
+    type BinaryInput = Blob | Buffer | File | NodeBlob | NodeFile;
     type Dict<T> = Record<string, T>;
     type Nullable<T> = null | T;
     type NullableNumber = Nullable<number>;

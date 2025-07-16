@@ -49,6 +49,7 @@
     "unused-exports": "ts-unused-exports ./tsconfig.json"
   },
   "dependencies": {
+    "@types/node": "^24.0.14",
     "bson": "^6.10.4",
     "type-fest": "^4.41.0"
   },
