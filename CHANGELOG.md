@@ -1,5 +1,41 @@
 # Changelog
 
+## v5.4.0
+
+[compare changes](https://github.com/kikiutils/node-types/compare/v5.3.0...v5.4.0)
+
+### 🚀 Enhancements
+
+- Add `BinaryInput` type ([50d86c0](https://github.com/kikiutils/node-types/commit/50d86c0))
+
+### 🏡 Chore
+
+- Set `--max-warnings=0` for `lint` and `lint:fix` ([bffe476](https://github.com/kikiutils/node-types/commit/bffe476))
+- Set eslint config to enable `lib` mode ([59e03e4](https://github.com/kikiutils/node-types/commit/59e03e4))
+- Disable `ts/explicit-function-return-type` eslint rule ([5190f6b](https://github.com/kikiutils/node-types/commit/5190f6b))
+- Lint code ([f8f0974](https://github.com/kikiutils/node-types/commit/f8f0974))
+- **test:** Migrate from `jest` to `vitest` ([9a9d869](https://github.com/kikiutils/node-types/commit/9a9d869))
+- Split `tsconfig` and create build-specific config for production builds ([564b6d2](https://github.com/kikiutils/node-types/commit/564b6d2))
+- **vitest:** Configure coverage to collect files only under `src/` ([e2c7f65](https://github.com/kikiutils/node-types/commit/e2c7f65))
+- Upgrade dependencies and remove `@types/node` ([32aaf31](https://github.com/kikiutils/node-types/commit/32aaf31))
+- Update package.json ([022366d](https://github.com/kikiutils/node-types/commit/022366d))
+- Wrap all variable expansions in scripts with `${}` ([82c47c9](https://github.com/kikiutils/node-types/commit/82c47c9))
+- Update dependencies and modify scripts ([374cc56](https://github.com/kikiutils/node-types/commit/374cc56))
+- Upgrade dependencies ([1b1d7ec](https://github.com/kikiutils/node-types/commit/1b1d7ec))
+
+### ✅ Tests
+
+- Change vitest config file to mjs ([5c3bc1f](https://github.com/kikiutils/node-types/commit/5c3bc1f))
+
+### 🤖 CI
+
+- Set `--prod=false` when install dependencies ([93d7945](https://github.com/kikiutils/node-types/commit/93d7945))
+- Remove `--prod=false` flag when install dependencies ([249def0](https://github.com/kikiutils/node-types/commit/249def0))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v5.3.0
 
 [compare changes](https://github.com/kikiutils/node-types/compare/v5.2.0...v5.3.0)
