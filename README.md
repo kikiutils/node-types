@@ -48,6 +48,8 @@ You can load only the types you need.
 
 The index file includes both utility types and `type-fest` types.
 
+- `AnyRecord`
+- `BinaryInput`
 - `Dict`
 - `Nullable`
 - `NullableNumber`
