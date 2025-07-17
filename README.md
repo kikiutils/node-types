@@ -51,6 +51,7 @@ The index file includes both utility types and `type-fest` types.
 - `AnyRecord`
 - `BinaryInput`
 - `Dict`
+- `MaybePartial`
 - `MaybeReadonly`
 - `Nullable`
 - `PartialDict`

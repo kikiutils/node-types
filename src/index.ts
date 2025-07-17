@@ -11,6 +11,7 @@ declare global {
     type AnyRecord = Record<string, any>;
     type BinaryInput = Blob | Buffer | File | NodeBlob | NodeFile;
     type Dict<T> = Record<string, T>;
+    type MaybePartial<T> = Partial<T> | T;
     type MaybeReadonly<T> = Readonly<T> | T;
     type Nullable<T> = null | T;
     type PartialDict<T> = Partial<Dict<T>>;
