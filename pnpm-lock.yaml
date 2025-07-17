@@ -738,8 +738,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.5.185:
-    resolution: {integrity: sha512-dYOZfUk57hSMPePoIQ1fZWl1Fkj+OshhEVuPacNKWzC1efe56OsHY3l/jCfiAgIICOU3VgOIdoq7ahg7r7n6MQ==}
+  electron-to-chromium@1.5.186:
+    resolution: {integrity: sha512-lur7L4BFklgepaJxj4DqPk7vKbTEl0pajNlg2QjE5shefmlmBLm2HvQ7PMf1R/GvlevT/581cop33/quQcfX3A==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -849,8 +849,8 @@ packages:
       typescript:
         optional: true
 
-  eslint-plugin-jsdoc@51.4.0:
-    resolution: {integrity: sha512-woooKbcFiQdpfJg1g/WmFHItaZuDE14SZ7QVW3eV/5e3mbOicjtgVz6cFkYJ3MP9n5WL9/ZAvuWuGkAkMFhDYQ==}
+  eslint-plugin-jsdoc@51.4.1:
+    resolution: {integrity: sha512-y4CA9OkachG8v5nAtrwvcvjIbdcKgSyS6U//IfQr4FZFFyeBFwZFf/tfSsMr46mWDJgidZjBTqoCRlXywfFBMg==}
     engines: {node: '>=20.11.0'}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
@@ -894,8 +894,8 @@ packages:
     peerDependencies:
       eslint: '>=8.44.0'
 
-  eslint-plugin-tailwindcss@3.18.0:
-    resolution: {integrity: sha512-PQDU4ZMzFH0eb2DrfHPpbgo87Zgg2EXSMOj1NSfzdZm+aJzpuwGerfowMIaVehSREEa0idbf/eoNYAOHSJoDAQ==}
+  eslint-plugin-tailwindcss@3.18.2:
+    resolution: {integrity: sha512-QbkMLDC/OkkjFQ1iz/5jkMdHfiMu/uwujUHLAJK5iwNHD8RTxVTlsUezE0toTZ6VhybNBsk+gYGPDq2agfeRNA==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       tailwindcss: ^3.4.0
@@ -2093,7 +2093,7 @@ snapshots:
       eslint-plugin-antfu: 3.1.1(eslint@9.31.0(jiti@2.4.2))
       eslint-plugin-command: 3.3.1(eslint@9.31.0(jiti@2.4.2))
       eslint-plugin-import-lite: 0.3.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
-      eslint-plugin-jsdoc: 51.4.0(eslint@9.31.0(jiti@2.4.2))
+      eslint-plugin-jsdoc: 51.4.1(eslint@9.31.0(jiti@2.4.2))
       eslint-plugin-jsonc: 2.20.1(eslint@9.31.0(jiti@2.4.2))
       eslint-plugin-n: 17.21.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
       eslint-plugin-no-only-tests: 3.3.0
@@ -2355,7 +2355,7 @@ snapshots:
       eslint: 9.31.0(jiti@2.4.2)
       eslint-plugin-format: 1.0.1(eslint@9.31.0(jiti@2.4.2))
       eslint-plugin-promise: 7.2.1(eslint@9.31.0(jiti@2.4.2))
-      eslint-plugin-tailwindcss: 3.18.0(tailwindcss@3.4.17)
+      eslint-plugin-tailwindcss: 3.18.2(tailwindcss@3.4.17)
     transitivePeerDependencies:
       - '@eslint-react/eslint-plugin'
       - '@eslint/json'
@@ -2679,7 +2679,7 @@ snapshots:
   browserslist@4.25.1:
     dependencies:
       caniuse-lite: 1.0.30001727
-      electron-to-chromium: 1.5.185
+      electron-to-chromium: 1.5.186
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.25.1)
 
@@ -2870,7 +2870,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.5.185: {}
+  electron-to-chromium@1.5.186: {}
 
   emoji-regex@8.0.0: {}
 
@@ -2966,7 +2966,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.8.3
 
-  eslint-plugin-jsdoc@51.4.0(eslint@9.31.0(jiti@2.4.2)):
+  eslint-plugin-jsdoc@51.4.1(eslint@9.31.0(jiti@2.4.2)):
     dependencies:
       '@es-joy/jsdoccomment': 0.52.0
       are-docs-informative: 0.0.2
@@ -3049,7 +3049,7 @@ snapshots:
       regexp-ast-analysis: 0.7.1
       scslre: 0.3.0
 
-  eslint-plugin-tailwindcss@3.18.0(tailwindcss@3.4.17):
+  eslint-plugin-tailwindcss@3.18.2(tailwindcss@3.4.17):
     dependencies:
       fast-glob: 3.3.3
       postcss: 8.5.6

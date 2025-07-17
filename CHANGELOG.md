@@ -1,5 +1,31 @@
 # Changelog
 
+## v6.0.0
+
+[compare changes](https://github.com/kikiutils/node-types/compare/v5.4.0...v6.0.0)
+
+### 🚀 Enhancements
+
+- Add `MaybePartial` type ([37decbb](https://github.com/kikiutils/node-types/commit/37decbb))
+
+### 💅 Refactors
+
+- ⚠️ Rename `Readonlyable` to `MaybeReadonly` ([32b5685](https://github.com/kikiutils/node-types/commit/32b5685))
+- ⚠️ Remove `NullableNumber` and `NullableString` ([ba3949c](https://github.com/kikiutils/node-types/commit/ba3949c))
+
+### 📖 Documentation
+
+- Update README ([f84b968](https://github.com/kikiutils/node-types/commit/f84b968))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️ Rename `Readonlyable` to `MaybeReadonly` ([32b5685](https://github.com/kikiutils/node-types/commit/32b5685))
+- ⚠️ Remove `NullableNumber` and `NullableString` ([ba3949c](https://github.com/kikiutils/node-types/commit/ba3949c))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v5.4.0
 
 [compare changes](https://github.com/kikiutils/node-types/compare/v5.3.0...v5.4.0)
