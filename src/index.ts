@@ -13,8 +13,6 @@ declare global {
     type Dict<T> = Record<string, T>;
     type MaybeReadonly<T> = Readonly<T> | T;
     type Nullable<T> = null | T;
-    type NullableNumber = Nullable<number>;
-    type NullableString = Nullable<string>;
     type PartialDict<T> = Partial<Dict<T>>;
     type PartialRecord<K extends keyof any, T> = Partial<Record<K, T>>;
     type ReadonlyDict<T> = Readonly<Dict<T>>;

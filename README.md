@@ -53,8 +53,6 @@ The index file includes both utility types and `type-fest` types.
 - `Dict`
 - `MaybeReadonly`
 - `Nullable`
-- `NullableNumber`
-- `NullableString`
 - `PartialDict`
 - `PartialRecord`
 - `ReadonlyDict`
