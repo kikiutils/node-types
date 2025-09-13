@@ -1,5 +1,17 @@
 # Changelog
 
+## v7.0.2
+
+[compare changes](https://github.com/kikiutils/node-types/compare/v7.0.1...v7.0.2)
+
+### 🩹 Fixes
+
+- Disable tsconfig `composite` option when build ([7e076a4](https://github.com/kikiutils/node-types/commit/7e076a4))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v7.0.1
 
 [compare changes](https://github.com/kikiutils/node-types/compare/v7.0.0...v7.0.1)
