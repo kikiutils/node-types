@@ -1,5 +1,21 @@
 # Changelog
 
+## v7.0.1
+
+[compare changes](https://github.com/kikiutils/node-types/compare/v7.0.0...v7.0.1)
+
+### 📖 Documentation
+
+- Update README ([cf0711c](https://github.com/kikiutils/node-types/commit/cf0711c))
+
+### 🏡 Chore
+
+- Remove `peerDependencies` and update `dependencies` ([1f54e2a](https://github.com/kikiutils/node-types/commit/1f54e2a))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v7.0.0
 
 [compare changes](https://github.com/kikiutils/node-types/compare/v6.0.0...v7.0.0)
