@@ -1,5 +1,30 @@
 # Changelog
 
+## v7.0.0
+
+[compare changes](https://github.com/kikiutils/node-types/compare/v6.0.0...v7.0.0)
+
+### 💅 Refactors
+
+- **tsconfig:** Separate references so src and tests use different settings ([df472e2](https://github.com/kikiutils/node-types/commit/df472e2))
+- ⚠️ Remove Except due to type-fest v5 update; import separately when needed ([3e36994](https://github.com/kikiutils/node-types/commit/3e36994))
+
+### 🏡 Chore
+
+- Bump tsconfig target to es2023 ([b9185b7](https://github.com/kikiutils/node-types/commit/b9185b7))
+- Update `.gitignore` ([1465997](https://github.com/kikiutils/node-types/commit/1465997))
+- Upgrade devDependencies ([57244a0](https://github.com/kikiutils/node-types/commit/57244a0))
+- Add `tsconfig.base.json` ([f6ba6dd](https://github.com/kikiutils/node-types/commit/f6ba6dd))
+- Set `peerDependencies` and `peerDependenciesMeta` ([9b59281](https://github.com/kikiutils/node-types/commit/9b59281))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️ Remove Except due to type-fest v5 update; import separately when needed ([3e36994](https://github.com/kikiutils/node-types/commit/3e36994))
+
+### ❤️ Contributors
+
+- kiki-kanri
+
 ## v6.0.0
 
 [compare changes](https://github.com/kikiutils/node-types/compare/v5.4.0...v6.0.0)
