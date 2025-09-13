@@ -63,7 +63,6 @@ The index file includes both utility types and `type-fest` types.
 ### [type-fest](./src/type-fest.ts)
 
 - `Arrayable`
-- `Except`
 - `Promisable`
 - `ReadonlyDeep`
 - `SetOptional`
