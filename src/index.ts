@@ -4,19 +4,15 @@ import type {
     File as NodeFile,
 } from 'node:buffer';
 
-export type {} from './type-fest';
-export type {} from './utils/filtered-key-path';
+export type { FilteredKeyPath } from './utils/filtered-key-path';
 
-declare global {
-    type AnyRecord = Record<string, any>;
-    type BinaryInput = Blob | Buffer | File | NodeBlob | NodeFile;
-    type Dict<T> = Record<string, T>;
-    type MaybePartial<T> = Partial<T> | T;
-    type MaybeReadonly<T> = Readonly<T> | T;
-    type Nullable<T> = null | T;
-    type PartialDict<T> = Partial<Dict<T>>;
-    type PartialRecord<K extends keyof any, T> = Partial<Record<K, T>>;
-    type ReadonlyDict<T> = Readonly<Dict<T>>;
-    type ReadonlyPartialRecord<K extends keyof any, T> = Readonly<PartialRecord<K, T>>;
-    type ReadonlyRecord<K extends keyof any, T> = Readonly<Record<K, T>>;
-}
+export type AnyRecord = Record<string, any>;
+export type BinaryInput = Blob | Buffer | File | NodeBlob | NodeFile;
+export type Booleanish = 'false' | 'true' | boolean;
+export type MaybePartial<T> = Partial<T> | T;
+export type MaybeReadonly<T> = Readonly<T> | T;
+export type Nullable<T> = null | T;
+export type Numberish = number | string;
+export type PartialRecord<K extends keyof any, T> = Partial<Record<K, T>>;
+export type ReadonlyPartialRecord<K extends keyof any, T> = Readonly<PartialRecord<K, T>>;
+export type ReadonlyRecord<K extends keyof any, T> = Readonly<Record<K, T>>;

@@ -8,6 +8,8 @@ Lightweight utility types package with global declarations, Vue support, and no 
 
 - [✨ Release Notes](./CHANGELOG.md)
 
+TODO: Update README
+
 ## Features
 
 - 🛠 Provides commonly used or simplified utility types

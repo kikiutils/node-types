@@ -53,9 +53,8 @@
     "unused-exports": "ts-unused-exports ./tsconfig.json"
   },
   "dependencies": {
-    "@types/node": "^24.3.3",
-    "bson": "^6.10.4",
-    "type-fest": "^5.0.0"
+    "@types/node": "^24.5.2",
+    "bson": "^6.10.4"
   },
   "devDependencies": {
     "@kikiutils/changelogen": "^0.9.0",
